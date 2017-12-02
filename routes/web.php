@@ -35,3 +35,12 @@ Route::get('/ching/c2', function(){
     return view('ching.c2');
 });
 
+
+Route::get('/zy/z1',function (){
+    return view('zy.z1');
+});
+
+Route::get('/zy/z2',function (){
+    return view('zy.z2');
+});
+
